@@ -1,29 +1,11 @@
-# README #
+# resurs-ecomphp-deprecated #
 
-This README would normally document whatever steps are necessary to get your application up and running.
-
-### What is this repository for? ###
-
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+This is a repository for content from resurs-ecomphp v1.3, that is deprecated and is removed from the standard library setup.
 
 ### How do I get set up? ###
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
-
-### Contribution guidelines ###
-
-* Writing tests
-* Code review
-* Other guidelines
+Use composer as usual, to setup ecomphp. This library is included in the standard package.
 
 ### Who do I talk to? ###
 
-* Repo owner or admin
-* Other community or team contact
+Resurs Bank AB via onboarding@resurs.se or tomas.tornevall@resurs.se
