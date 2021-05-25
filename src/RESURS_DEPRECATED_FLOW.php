@@ -8,6 +8,7 @@ namespace Resursbank\RBEcomPHP;
  * when really necessary.
  *
  * @package Resursbank\RBEcomPHP
+ * @deprecated Avoid using this template holder as data tend to get outdated.
  */
 class RESURS_DEPRECATED_FLOW
 {
