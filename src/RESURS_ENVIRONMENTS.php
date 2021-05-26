@@ -24,4 +24,17 @@ class RESURS_ENVIRONMENTS
      * @deprecated Do NOT use this variable. It will be removed!
      */
     const ENVIRONMENT_TEST = 1;
+
+    /**
+     * Not set by anyone.
+     * @var int
+     * @deprecated Do NOT use this variable. It will be removed!
+     */
+    const NOT_SET = 2;
+
+    /**
+     * @var int
+     * @deprecated Do NOT use this variable. It will be removed!
+     */
+    const ENVIRONMENT_NOT_SET = 2;
 }
