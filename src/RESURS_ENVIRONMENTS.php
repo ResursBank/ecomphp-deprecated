@@ -13,4 +13,15 @@ class RESURS_ENVIRONMENTS
 {
     const PRODUCTION = 0;
     const TEST = 1;
+
+    /**
+     * @var int
+     * @deprecated Do NOT use this variable. It will be removed!
+     */
+    const ENVIRONMENT_PRODUCTION = 0;
+    /**
+     * @var int
+     * @deprecated Do NOT use this variable. It will be removed!
+     */
+    const ENVIRONMENT_TEST = 1;
 }
