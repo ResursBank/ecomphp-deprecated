@@ -20,6 +20,37 @@ class RESURS_PAYMENT_STATUS_RETURNCODES
 
     /**
      * @var int
+     * @deprecated
+     */
+    const PAYMENT_PENDING = 1;
+    /**
+     * @var int
+     * @deprecated
+     */
+    const PAYMENT_PROCESSING = 2;
+    /**
+     * @var int
+     * @deprecated
+     */
+    const PAYMENT_COMPLETED = 4;
+    /**
+     * @var int
+     * @deprecated
+     */
+    const PAYMENT_ANNULLED = 8;
+    /**
+     * @var int
+     * @deprecated
+     */
+    const PAYMENT_CREDITED = 16;
+    /**
+     * @var int
+     * @deprecated
+     */
+    const PAYMENT_AUTOMATICALLY_DEBITED = 32;
+
+    /**
+     * @var int
      * @deprecated Use ERROR instead. Or do not use it at all!
      */
     const PAYMENT_STATUS_COULD_NOT_BE_SET = 128;
