@@ -17,4 +17,10 @@ class RESURS_PAYMENT_STATUS_RETURNCODES
     const AUTO_DEBITED = 32;
     const MANUAL_INSPECTION = 64;
     const ERROR = 128;
+
+    /**
+     * @var int
+     * @deprecated Use ERROR instead. Or do not use it at all!
+     */
+    const PAYMENT_STATUS_COULD_NOT_BE_SET = 128;
 }
