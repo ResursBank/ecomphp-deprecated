@@ -11,6 +11,6 @@ namespace Resursbank\RBEcomPHP;
  */
 class RESURS_ENVIRONMENTS
 {
-    const PRODUCTION = false;
-    const TEST = true;
+    const PRODUCTION = 0;
+    const TEST = 1;
 }
