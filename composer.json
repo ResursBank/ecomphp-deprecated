@@ -1,6 +1,6 @@
 {
     "name": "resursbank/ecomphp-deprecated",
-    "description": "EComPHP-Deprecations for v1.3.",
+    "description": "Support for deprecated code within the EComPHP Library.",
     "license": "Apache-2.0",
     "require": {
     },
@@ -11,6 +11,9 @@
         }
     ],
     "autoload": {
+        "psr-0": {
+            "": "src/"
+        },
         "psr-4": {
             "Resursbank\\RBEcomPHP\\": "src/"
         }
