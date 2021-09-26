@@ -2,6 +2,7 @@
 
 /**
  * Class ResursException
+ * Resurs Bank exception handler.
  */
 class ResursException extends \Exception
 {
