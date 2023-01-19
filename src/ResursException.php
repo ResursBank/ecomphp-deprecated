@@ -8,17 +8,20 @@ class ResursException extends Exception
 {
     private $traceFunction;
     private $stringifiedCode;
+    private $shortException;
 
     public function __construct(
         $message = 'Unknown exception',
         $code = 0,
         Exception $previous = null,
         $stringifiedCode = null,
-        $fromFunction = ''
+        $fromFunction = '',
+        $shortException = null
     ) {
         parent::__construct($message, $code, $previous);
         $this->traceFunction = $fromFunction;
         $this->stringifiedCode = $stringifiedCode;
+        $this->shortException = $shortException;
         $this->setStringifiedCode();
     }
 
@@ -58,5 +61,13 @@ class ResursException extends Exception
     public function getTraceFunction()
     {
         return $this->traceFunction;
+    }
+
+    /**
+     * Fetch shorter exception message rather than the original long (fix for some specific soap exceptions).
+     * @return mixed|null
+     */
+    public function getShortException() {
+        return $this->shortException;
     }
 }
